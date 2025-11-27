@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.garden-box {
+  width: 300px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 5px solid green;
+  background-color: #e8ffe8;
+  border-radius: 12px;
+}
+
+.garden-box h2 {
+  margin-top: 0;
+}
