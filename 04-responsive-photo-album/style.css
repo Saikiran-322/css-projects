@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.album img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Tablet view: 2 columns */
+@media (max-width: 900px) {
+  .album img {
+    width: 45%;
+  }
+}
+
+/* Mobile view: 1 column */
+@media (max-width: 600px) {
+  .album img {
+    width: 90%;
+  }
+}
