@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background-color: #e7f6ff;
+}
+
+/* Weather Card */
+.weather-card {
+  width: 200px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+/* Hover effect */
+.weather-card:hover {
+  transform: scale(1.05);
+}
+
+/* Sun icon */
+.sun {
+  width: 60px;
+  height: 60px;
+  background-color: #ffdd33;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: glow 2s infinite alternate ease-in-out;
+}
+
+/* Glow animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #ffdd33;
+  }
+  100% {
+    box-shadow: 0 0 25px #ffdd33;
+  }
+}
+
+.weather-card h2 {
+  margin-top: 15px;
+  color: #ff9900;
+  font-size: 22px;
+}
+
+.weather-card p {
+  font-size: 20px;
+  margin: 5px;
+}
